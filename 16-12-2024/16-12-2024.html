@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+        <img src="../ts rtc.jpg" alt="tglogo" width="50px">
+        <h1> TELANGANA STATE ROAD TRANSPORT CORPORATION </h1>
+    
+        <h1> GENERAL BUS PASS APPLICATION </h1>
+    </center>
+    <fieldset>
+        <legend> aplication details</legend>
+        <form method="get">
+            Name*
+
+            <input type="text">
+            Father's/ guardian's*
+            <input type="text">
+            <br>
+            Date of birth*
+            <input type="text">
+            <input type="text">
+            gender*
+            <input type="radio">female
+            <input type="radio">male <br>
+            <br>
+            AGE AS ON :
+            <input type="text">YEAR(S)
+            <input type="text">MONTH(S)
+            <input type="text">DAY(S) <br>
+
+            Aadhaar NO:
+            <input type="text">
+            <br>
+            WhatsApp No*
+            <input type="text">
+
+            E MAIL ID *
+            <input type="text">
+            <br>
+            PHOTO *
+         <input type="file" >
+        </form>
+    </fieldset>
+    <h1> Residential Address Details</h1>
+    Application 's Address
+    <textarea name="" id="" rows="7">
+
+    </textarea>
+
+
+    DISTRICT*
+     
+<select name=""id="">
+    <option value="nellore"> hydreabad</option>
+</select><br>
+    Mandal*
+  
+<select name="" id="">
+    <option value=" ">select one</option>
+    <option value=" gudur"> gudur</option>
+</select>
+    Village*
+   
+<select name="" id="">
+    <option value=" "> jigityala</option>
+</select><br>
+    pin code*
+    <input type="number" name="number" >
+
+
+    </fieldset>
+    <fieldset>
+
+        <h1> Pass Type Details</h1>
+        City*
+        <select name="" id="">
+            <option value="">select one</option>
+            <option value="hydreabad">hydreabad </option>
+        </select>
+        <br></br>
+        Pass Type *
+        <select name="" id="">
+            <option value="">select one</option>
+            <option value="vijayawada">vijayawada</option>
+        </select>
+
+
+    </fieldset>
+
+    <fieldset>
+        <legend>
+            <h3>Mode of payment & pass collection</h3>
+        </legend>
+        payment Mode *
+        <select name="" id="">
+            <option value="payment mode"> payment mode</option>
+        </select><br>
+
+        Pass Delivery Mode* <select name="" id="">
+            <option value="select pass Delivery mode">select pass Delivery mode</option>
+        </select> <br>
+
+        Center at Which You Want to collect pass *
+        <select name="" id="">
+            <option value="RTC BORABANDA--HYD[17/12/2024]"> center at which you want to collect pass </option>
+        </select><br>
+    </fieldset> 
+    <center>
+    <img src="../captchimage.jpg" alt="captch"><br>
+    <input type="submit" value="submit">
+</center>
+
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+
+</html>
